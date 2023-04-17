@@ -1,0 +1,7 @@
+.search-bar {
+    background-image: url('./background_search_desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}

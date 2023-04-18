@@ -3,5 +3,48 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 400px;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar__sort-options {
+    width: 60%;
+}
+
+.search-bar__sort-options ul {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: .5rem;
+}
+
+.search-bar__sort-options li {
+    width: min-content;
+    text-align: center;
+}
+
+.search-bar__fields {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    width: 80%;
+}
+
+.search-bar__fields input {
+    padding: .5rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.search-bar__submit {
+    background-color: var(--mustard);
+    color: #fff;
+    padding: .5rem 1.3rem;
+    border-radius: 5px;
 }

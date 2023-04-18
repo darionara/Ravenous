@@ -17,7 +17,7 @@ const businessData = {
 const Business = () => {
   return (
     <div className='business'>
-      <div className='business__image-container'>
+      <div className='image-container'>
         <img src={businessData.imageSrc} alt={businessData.name} />
       </div>
       <h2>{businessData.name}</h2>

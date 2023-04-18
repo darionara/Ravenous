@@ -1,0 +1,37 @@
+.business {
+    width: 16rem;
+}
+
+.business > * {
+    align-self: start;
+}
+
+.business .image-container {
+    width: 16rem;
+    height: 16rem;
+}
+
+.business__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business h2 {
+    font-size: 1.2rem;
+    margin: 1rem 0 .5rem;
+}
+
+.business__reviews {
+    text-align: end;
+}
+
+.business__reviews h3:first-child {
+    font-size: 1rem;
+}
+
+.business__reviews h3 {
+    font-size: .8rem;
+    line-height: 1.1;
+    color: var(--mustard);
+}
+

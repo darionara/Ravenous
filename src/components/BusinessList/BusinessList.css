@@ -1,0 +1,8 @@
+.business__list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem 3rem;
+    margin: 5rem 0;
+}

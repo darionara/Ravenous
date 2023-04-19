@@ -84,10 +84,14 @@ const businesses = [
 ];
 
 const App = () => {
+  const searchYelp = (term, location, sortBy) => {
+    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
+  }
+
   return (
     <div className='app'>
       <h1>ravenous</h1>
-      <SearchBar />
+      <SearchBar searchYelp={searchYelp} />
       <BusinessList businesses={businesses}/>
     </div>
   );
